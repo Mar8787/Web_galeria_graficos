@@ -1,0 +1,73 @@
+body {
+    background-color: #adebb3;
+}
+
+h1 {
+    margin-top: 3.75rem;
+}
+
+/* Table */
+.table-container {
+   overflow-x: auto; /* If the text is to large */
+}
+
+table {
+    border: 1px solid #444;
+}
+
+.col-picture {
+    white-space: nowrap;
+    width: 20%;
+}
+
+.col-id {
+    white-space: nowrap;
+    width: 5%;
+    text-align: center;
+}
+
+.col-description {
+    width: auto;
+}
+
+th {
+    text-align: center;
+}
+
+.picture {
+    border-radius: 100%;
+}
+
+.id-number-container {
+    margin-top: 4.5rem;
+}
+
+#text-description {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+/* Select */
+#pictures-select {
+    width: 155px;
+}
+
+#data-select {
+    width: 215px;
+}
+
+/* Titles charts */
+
+#nameChartDonut, #nameChartBar {
+    margin-top: 5rem;
+}
+
+.footerName {
+    color: #444;;
+    border-top: solid #444;
+    margin-top: 30rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
