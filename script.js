@@ -3,7 +3,7 @@ const tbody = document.querySelector("#pictures-table");
 
 // JSONs wiht charts data
 const dataExercises = {
-  labels: ["Enero", "Febrebo", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+  labels: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
   datasets: [{
     label: "Ejercicios Realizados",
     data: [10, 23, 40, 21, 14, 35, 37, 29, 17, 21, 32, 40]
@@ -94,8 +94,6 @@ $("#data-select").on("select2:select", function (e) {
 });
 selectData();
 
-
-
 // Bar chart
 function barChart(showData) {
   const barColor = (showData === dataSongs) ? ['#FF4560'] :  ['#0004e3'];
@@ -121,8 +119,6 @@ function barChart(showData) {
 
   dataBarChart.render();
 }
-// barChart(showData);
-
 
 // Donut char
 function donutChart(showData) {
@@ -138,4 +134,3 @@ function donutChart(showData) {
 
   dataDonutChart.render();
 }
-// donutChart(showData);
